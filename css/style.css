@@ -27,7 +27,7 @@ p {
 
 .parallax-container {
   min-height: 90vh;
-  line-height: 0;
+  line-height: auto;
   height: auto;
   color: rgba(255,255,255,.9);
 }
