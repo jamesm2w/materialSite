@@ -6,6 +6,12 @@
  * Made By MaterializeCSS.com
  */
 
+#index-banner {
+  background-image: url('../background_1_blur.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -20,14 +26,14 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 90vh;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+.parallax-container .section {
+  width: 100%;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
