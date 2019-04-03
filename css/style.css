@@ -14,6 +14,15 @@
 
 .navbar-fixed { z-index: 9999; }
 
+nav {
+  transition: background-color 200ms linear;
+}
+
+.nav-text {
+  transition: color 200ms linear;
+}
+
+
 .row-full{
   width: 100vw;
   position: relative;
