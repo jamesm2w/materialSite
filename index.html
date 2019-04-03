@@ -11,6 +11,85 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
+
+  <!-- Modal Structure -->
+  <div id="sponsor-modal" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Sponsors</h4>
+      <div class="row">
+
+        <div class="col s12 row">
+          <img class="col s12 m4 sponsor-img" src="./sponsors/Sponsor-PrototypeElectronics.jpg">
+          <div class="col s12 m8 sponsor-text">
+            Prototype Electronics are a local electronics manufacture and assembly service.
+          </div>
+        </div>
+
+        <div class="col s12 row">
+          <img class="col s12 m4 sponsor-img" src="./sponsors/Sponsor-SoutonUni.jpg">
+          <div class="col s12 m8 sponsor-text">
+            Prototype Electronics are a local electronics manufacture and assembly service.
+          </div>
+        </div>
+
+        <div class="col s12 row">
+          <img class="col s12 m4 sponsor-img" src="./sponsors/Sponsor-BAE.jpg">
+          <div class="col s12 m8 sponsor-text">
+            Prototype Electronics are a local electronics manufacture and assembly service.
+          </div>
+        </div>
+
+        <div class="col s12 row">
+          <img class="col s12 m4 sponsor-img" src="./sponsors/Sponsor-HardySigns.jpg">
+          <div class="col s12 m8 sponsor-text">
+            Prototype Electronics are a local electronics manufacture and assembly service.
+          </div>
+        </div>
+
+        <div class="col s12 row">
+          <img class="col s12 m4 sponsor-img" src="./sponsors/Sponsor-Savox.jpg">
+          <div class="col s12 m8 sponsor-text">
+            Prototype Electronics are a local electronics manufacture and assembly service.
+          </div>
+        </div>
+
+        <div class="col s12 row">
+          <img class="col s12 m4 sponsor-img" src="./sponsors/Sponsor-StudioPrint.jpg">
+          <div class="col s12 m8 sponsor-text">
+            Prototype Electronics are a local electronics manufacture and assembly service.
+          </div>
+        </div>
+
+        <div class="col s12 row">
+          <img class="col s12 m4 sponsor-img" src="./sponsors/Sponsor-Shropshire.jpg">
+          <div class="col s12 m8 sponsor-text">
+            Prototype Electronics are a local electronics manufacture and assembly service.
+          </div>
+        </div>
+
+        <div class="col s12 row">
+          <img class="col s12 m4 sponsor-img" src="./sponsors/Sponsor-THS.jpg">
+          <div class="col s12 m8 sponsor-text">
+            Prototype Electronics are a local electronics manufacture and assembly service.
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-red btn-flat red-text">Close</a>
+    </div>
+  </div>
+
+  <div id="competition-history-modal" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Competition History</h4>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-red btn-flat red-text">Close</a>
+    </div>
+  </div>
+
   <div class="navbar-fixed">
     <nav class="white darken-4 pushpin-nav" role="navigation">
       <div class="nav-wrapper container">
@@ -19,13 +98,13 @@
           <li><a href="#team-values" class="nav-text black-text">Values</a></li>
           <li><a href="#team-success" class="nav-text black-text">Team Success</a></li>
           <li><a href="#competition-and-car" class="nav-text black-text">Competition & Car</a></li>
-          <li><a href="#" class="nav-text black-text">The Team</a></li>
+          <li><a href="#the-team" class="nav-text black-text">The Team</a></li>
           <li><a href="#contact-us" class="nav-text black-text">Sponsor Us</a></li>
           <li><a href="champions" class="nav-text black-text">UK National Champions</a></li>
         </ul>
 
         <ul id="nav-mobile" class="sidenav" style="z-index:100;">
-          <li><a href="#">Home</a></li>
+          <li><a href="#the-team">Home</a></li>
           <li><a href="#team-values">Values</a></li>
           <li><a href="#team-success">Team Success</a></li>
           <li><a href="#competition-and-car">Competition & Car</a></li>
@@ -50,10 +129,8 @@
         </div>
 
         <div class="row center row-full">
+          <a href="#sponsor-modal" class="btn modal-trigger waves-effect waves-light white grey-text ">Our Sponsors</a>
           <div class="carousel" id="sponsor-carousel">
-            <div class="carousel-fixed-item center">
-              <a class="btn waves-effect white grey-text darken-text-2">Our Sponsors</a>
-            </div>
             <a class="carousel-item" href="#one!">
               <img src="./sponsors/Sponsor-PrototypeElectronics.jpg">
             </a>
@@ -194,16 +271,104 @@
           </div>
         </div>
 
-        <div class="col s12 m6">
-          <div class="icon-block">
-            <h2 class="center red-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">The Team</h5>
 
-            <p class="light"></p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A team with passion for innovation and experimenting with new technologies.</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background_4.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <div class="">
+    <div class="section scrollspy row" id="the-team">
+      <div class="row col s12">
+        <h2 class="header col s12 center red-text"><i class="material-icons">group</i></h2>
+        <h5 class="header col s12 center">The Team</h5>
+
+        <div class="col s12 m3">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="./team/Team-Barney.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Team Leader - Barney<i class="material-icons right">more_vert</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Barney - Team Leader<i class="material-icons right">close</i></span>
+                <p>Barney is an outstanding team leader who is there when the team needs him most. He never steps away from the challenge and always engages with everything the team is doing, even when it's not his speciality</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./team/Team-Joel.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Manufacturing - Joel<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Joel - Manufacturing Engineer<i class="material-icons right">close</i></span>
+              <p>Joel is a dedicated and inventive member of the team, who uses his CAD skills to solve the team's manufacturing problems. His eye for graphic design is paramount in creating the team's branding.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" height="66%" src="./team/Team-Jeff.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Design - Jeff<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Jeff - Design Engineer<i class="material-icons right">close</i></span>
+              <p>Jeff is an experienced team member with a steady hand, who puts in 110% with everything he does. He creates innovative and sustainable ideas to combat the team's design problems</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./team/Team-James.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Electronics - James<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">James - Electronics Engineer<i class="material-icons right">close</i></span>
+              <p>James is a inventive member who uses his knowledge of the latest technology and electrical skills to keep the team's electronics smarter and faster than the competition.</p>
+            </div>
           </div>
         </div>
       </div>
 
+      <div class="col s12 m3 offset-m4">
+        <div class="card center">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./team/Team-Jacob.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Mechanics - Jacob<i class="material-icons right">more_vert</i></span>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Jacob - Mechanical Engineer<i class="material-icons right">close</i></span>
+            <p>Jacob is a new and enthusiastic team member who jumps straight into the tough problems. His innovative and radical solutions to the teams mechanical problems keep the team one step ahead on the track</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 

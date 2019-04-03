@@ -9,6 +9,8 @@
       dist: 0
     });
 
+    $('.modal').modal();
+
     setInterval(() => {
       let elem = document.getElementById("sponsor-carousel");
 

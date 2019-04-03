@@ -12,7 +12,15 @@
   background-size: cover;
 }
 
-.navbar-fixed { z-index: 9999; }
+.navbar-fixed { z-index: 9997; }
+
+.modal.open {
+  z-index: 9999 !important;
+}
+
+.modal-overlay {
+  z-index: 9998 !important;
+}
 
 nav {
   transition: background-color 200ms linear;
@@ -53,6 +61,14 @@ p {
 }
 .parallax-container .section {
   width: 100%;
+}
+
+.sponsor-img {
+  display: inline-block;
+}
+
+.sponsor-text {
+  height: 100%;
 }
 
 @media only screen and (max-width : 992px) {
