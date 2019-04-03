@@ -30,6 +30,14 @@
         .toggleClass("black-text", scrollTop < $nav.height())
         .toggleClass("white-text", scrollTop > $nav.height());
 
+      $("#nav-mobile")
+        .toggleClass("red", scrollTop > $nav.height())
+        .toggleClass("white", scrollTop < $nav.height());
+
+      $nav.find(".mobile-nav-text")
+        .toggleClass("black-text", scrollTop < $nav.height())
+        .toggleClass("white-text", scrollTop > $nav.height());
+
     });
 
   }); // end of document ready
