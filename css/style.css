@@ -31,7 +31,7 @@ nav {
 }
 
 html {
-  background-color: #d32f2f;
+  background-color: #212121;
 }
 
 
@@ -41,6 +41,11 @@ html {
   margin-left: -50vw;
   height: auto;
   left: 50%;
+}
+
+.full-width {
+  width: 100%;
+  height: auto;
 }
 
 nav ul a,
