@@ -427,8 +427,27 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send white-text"></i></h3>
           <h4 class="white-text">Contact Us</h4>
-          <form action="mailto:panthers.ths@gmail.com">
-
+          <form action="https://formspree.io/panthers.ths@gmail.com" method="POST">
+            <div class="row">
+             <div class="input-field col s6 white-text">
+               <i class="material-icons prefix">account_circle</i>
+               <input id="contact_name" name="name" type="text" class="validate white-text">
+               <label for="contact_name" class="white-text">Name</label>
+             </div>
+             <div class="input-field col s6 white-text">
+               <i class="material-icons prefix">phone</i>
+               <input id="contact_email" name="email" type="email" class="validate white-text">
+               <label for="contact_email" class="white-text">Email</label>
+               <span class="helper-text white-text" data-error="Invalid Email" data-success="Valid Email">Enter your email address</span>
+             </div>
+             <div class="input-field col s12 white-text">
+              <textarea id="contact_message" name="message" class="materialize-textarea white-text"></textarea>
+              <label for="contact_message" class="white-text">Message</label>
+            </div>
+            <div class="input-field col s12 white-text">
+              <button type="submit" class="btn btn-large waves-effect waves-red white red-text text-accent-4">Submit</button>
+            </div>
+           </div>
           </form>
         </div>
       </div>
