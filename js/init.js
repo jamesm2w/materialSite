@@ -11,7 +11,7 @@
 
     $('.modal').modal();
 
-    setInterval(() => {
+    setInterval(function () {
       let elem = document.getElementById("sponsor-carousel");
 
       var instance = M.Carousel.getInstance(elem);
