@@ -1,0 +1,41 @@
+.panthers-text {
+  color: #d50000;
+}
+
+.fractals-text {
+  color: rgb(0, 0, 100);
+}
+
+.parallax-container {
+  min-height: 90vh;
+  line-height: auto;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+#top {
+  background-image: url("background_4_cropped.png");
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen only and (max-width: 700px) {
+  #top {
+    background-position: left;
+  }
+}
+
+.pushpin-nav {
+  z-index: 100000;
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+html, body, .block {
+
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
