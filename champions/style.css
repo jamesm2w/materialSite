@@ -13,14 +13,14 @@
   color: rgba(255,255,255,.9);
 }
 
-#top {
+body {
   background-image: url("background_4_cropped.png");
   background-size: cover;
   background-position: center;
 }
 
 @media screen only and (max-width: 700px) {
-  #top {
+  body {
     background-position: left;
   }
 }
